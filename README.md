@@ -8,3 +8,4 @@
 	- keycode.info: gives key value
 	- HTML tag: data-url & data-key
 	- <kbd> keyboard input
+	- querySelectorAll, addEventListener
