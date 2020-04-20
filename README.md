@@ -7,6 +7,9 @@
 		* Practic on vanilla javaScript and DOM properties, methods and events.
 	# 05 JavaScriptBookList App
 	    * An app in javascript without js framework, using classes, local storage and more.
+	# 06 JavaScriptDataStructure
+	    * Spread Operator
+
 
 ### References
 	- keycode.info: gives key value
