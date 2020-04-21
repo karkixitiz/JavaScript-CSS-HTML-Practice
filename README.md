@@ -10,7 +10,7 @@
 	# 06 JavaScriptDataStructure
 	    * Spread Operator Vs Rest Parameters
 		* Slice vs Splice
-		* Object.key vs Object.entries vs Object.values
+		* Object.keys vs Object.entries vs Object.values
 		* Basic Object manipulation
 
 
