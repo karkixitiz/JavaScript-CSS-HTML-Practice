@@ -77,3 +77,37 @@
 		console.log(Object.values(users1));//[{..},{..},{..},{..}]
 			console.log(users1.Alan.age);  //27
 	
+	// # Modify Object property and an Array Stored in an Object
+	let user1 = {
+		name: 'Kenneth',
+		age: 28,
+		data: {
+		  username: 'kennethCodesAllDay',
+		  joinDate: 'March 26, 2016',
+		  organization: 'freeCodeCamp',
+		  friends: [
+			'Sam',
+			'Kira',
+			'Tomo'
+		  ],
+		  location: {
+			city: 'San Francisco',
+			state: 'CA',
+			country: 'USA'
+		  }
+		}
+	  };
+
+	  function addFriend(userObject,friend){
+		  var friendList=userObject.data.friends
+		  friendList.push(friend)
+		  return friendList
+	  }
+
+	  function changeCity(userObject,city){
+	   userObject.data.location.city=city
+	   return userObject
+	}
+	  console.log(addFriend(user1,'kale'))//Array(4)
+	  console.log(user1)// object with friends array with new friend
+	  console.log(changeCity(user1,'Kansan')) // object with updated location

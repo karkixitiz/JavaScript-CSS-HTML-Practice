@@ -12,6 +12,8 @@
 		* Slice vs Splice
 		* Object.keys vs Object.entries vs Object.values
 		* Basic Object manipulation
+		* Modify property and array that store in object
+		* IndexOf
 
 
 
