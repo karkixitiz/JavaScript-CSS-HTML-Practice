@@ -8,7 +8,11 @@
 	# 05 JavaScriptBookList App
 	    * An app in javascript without js framework, using classes, local storage and more.
 	# 06 JavaScriptDataStructure
-	    * Spread Operator
+	    * Spread Operator Vs Rest Parameters
+		* Slice vs Splice
+		* Object.key vs Object.entries vs Object.values
+		* Basic Object manipulation
+
 
 
 ### References
